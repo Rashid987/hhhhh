@@ -1,6 +1,6 @@
 {
   "name": "hhhhh",
-  "version": "1.0.1",
+  "version": "v1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Rashid987/hhhhh/issues"
   },
-  "homepage": "https://github.com/Rashid987/hhhhh#readme"
+  "homepage": "https://github.com/Rashid987/hhhhh#readme",
+  "devDependencies": {
+    "npm-publish-git-tag": "^1.1.14"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "hhhhh@1.0.1"
 }
