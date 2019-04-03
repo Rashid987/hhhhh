@@ -4,7 +4,7 @@ weather-Server
 #### 2.execute following commands.
       cd scripts
       sudo bash installation.sh
-####   or to add data from mysql instance execute following.
+#####   or to add data from mysql instance execute following.
       cd scripts 
       sudo bash addDataOnMysql.sh <mysql_user> <mysql_host> <mysql_password>
 #### 3.start background with command
