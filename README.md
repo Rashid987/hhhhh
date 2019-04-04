@@ -14,10 +14,10 @@ weather-Server
 
 #### Code flow.
 #### 1.Background.js
-   1.set() will call the scan function.
-   2.scan will return array of all the cityids stored in redis.
-   3.all the cityids are sorted and depending on the no. of server running and the serverNo a subarray of cityids will be update.
-   eq. if 5 servers are running and this is 4th servers and no fo cityids are 100. then this server will update the cityid from index 60 to 79.
+#   1.set() will call the scan function.
+#   2.scan will return array of all the cityids stored in redis.
+#   3.all the cityids are sorted and depending on the no. of server running and the serverNo a subarray of cityids will be update.
+#   eq. if 5 servers are running and this is 4th servers and no fo cityids are 100. then this server will update the cityid from index 60 to 79.
    4.In this subarray for each cityid openweather request will be made and data will be stored in redis.
 #### 2.migration.sh
      1.download the cassandra-data depending on the filename.
