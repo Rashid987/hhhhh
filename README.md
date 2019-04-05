@@ -34,13 +34,11 @@ weather-Server
   - 1.first ip to cityid mapping is checked in redis for the ip.
   - 2.if cityid is found then getCityData is called.
   - 3.if cityid is not  present then getIpData is called
-  - 4.getIpData will check the ip to cityid mapping in mysql,will store the data in redis and 
-  - getCityData is called.
+  - 4.getIpData will check the ip to cityid mapping in mysql,will store the data in redis and getCityData is called.
   - 5.getCityData will check the cityData in redis.
   - 6.if data is found then data is formated and response is send.
   - 7.if data is not present then openWeather is called with id.
-  - 8.openWeather will make the request to openweather server depending on the cityid and 
-  - responseData is stored in redis.
+  - 8.openWeather will make the request to openweather server depending on the cityid and responseData is stored in redis.
   - 9.after getting the data from openweather data is formated and response is send.
 
    
